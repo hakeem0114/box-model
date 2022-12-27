@@ -1,0 +1,17 @@
+/*style.css*/
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Box_Model_Tasks */
+
+
+.box span {
+  background-color: pink;
+  border: 5px solid black;
+
+  margin: 2em;
+  padding: 3em; /* Space btwn the content & edge of box is increased to cover the 2nd sentence */
+
+  width: 80px;
+  height: 50px;
+
+ /* display: inline-block; would be used if the height & width need to be respected. */
+}
+
